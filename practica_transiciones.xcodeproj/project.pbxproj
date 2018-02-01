@@ -14,6 +14,7 @@
 		8532ED7E2020035F008D2EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8532ED7C2020035F008D2EDA /* LaunchScreen.storyboard */; };
 		8532ED8920200360008D2EDA /* practica_transicionesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8532ED8820200360008D2EDA /* practica_transicionesTests.swift */; };
 		8532ED9420200360008D2EDA /* practica_transicionesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8532ED9320200360008D2EDA /* practica_transicionesUITests.swift */; };
+		8548BD1520227F240029EDB5 /* Pregunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548BD1420227F240029EDB5 /* Pregunta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8532ED8F20200360008D2EDA /* practica_transicionesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica_transicionesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8532ED9320200360008D2EDA /* practica_transicionesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_transicionesUITests.swift; sourceTree = "<group>"; };
 		8532ED9520200360008D2EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8548BD1420227F240029EDB5 /* Pregunta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8532ED732020035F008D2EDA /* AppDelegate.swift */,
 				8532ED752020035F008D2EDA /* ViewController.swift */,
+				8548BD1420227F240029EDB5 /* Pregunta.swift */,
 				8532ED772020035F008D2EDA /* Main.storyboard */,
 				8532ED7A2020035F008D2EDA /* Assets.xcassets */,
 				8532ED7C2020035F008D2EDA /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8532ED762020035F008D2EDA /* ViewController.swift in Sources */,
+				8548BD1520227F240029EDB5 /* Pregunta.swift in Sources */,
 				8532ED742020035F008D2EDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				8532ED9A20200360008D2EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8532ED9B20200360008D2EDA /* Build configuration list for PBXNativeTarget "practica_transicionesTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				8532ED9D20200360008D2EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8532ED9E20200360008D2EDA /* Build configuration list for PBXNativeTarget "practica_transicionesUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				8532EDA020200360008D2EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
